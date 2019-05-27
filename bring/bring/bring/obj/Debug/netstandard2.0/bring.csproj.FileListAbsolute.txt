@@ -1,0 +1,14 @@
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\bin\Debug\netstandard2.0\bring.deps.json
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\bin\Debug\netstandard2.0\bring.dll
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\bin\Debug\netstandard2.0\bring.pdb
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\obj\Debug\netstandard2.0\bring.csprojAssemblyReference.cache
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\obj\Debug\netstandard2.0\bring.csproj.CoreCompileInputs.cache
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\obj\Debug\netstandard2.0\bring.AssemblyInfoInputs.cache
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\obj\Debug\netstandard2.0\bring.AssemblyInfo.cs
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\obj\Debug\netstandard2.0\bring.dll
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\obj\Debug\netstandard2.0\bring.pdb
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\obj\Debug\netstandard2.0\View\ListPage.xaml.g.cs
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\obj\Debug\netstandard2.0\View\MainPage.xaml.g.cs
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\obj\Debug\netstandard2.0\View\ItemDetailPage.xaml.g.cs
+C:\Users\tbaer\Documents\NDS_Informatik\APP Entwicklung\Repos\myApp.git\bring\bring\bring\obj\Debug\netstandard2.0\XamlC.stamp
