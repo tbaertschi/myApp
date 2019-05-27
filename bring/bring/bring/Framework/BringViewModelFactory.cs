@@ -5,16 +5,16 @@ using Xamarin.Forms;
 namespace bring.Framework
 {
     
-        public class TodoViewModelFactory : IBringViewModelFactory
+        public class BringViewModelFactory : IBringViewModelFactory
         {
-            public TodoViewModelFactory(INavigation navigation)
+            public BringViewModelFactory(INavigation navigation)
             {
                 _navigation = navigation;
             }
 
             public BringItemViewModel Create(BringItem item, BringListViewModel listViewModel)
             {
-                return new BringItemViewModel(_navigation, listViewModel, item);
+                return new BringItemViewModel( item);
             }
 
             private readonly INavigation _navigation;

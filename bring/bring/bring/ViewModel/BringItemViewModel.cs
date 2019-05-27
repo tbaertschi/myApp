@@ -7,10 +7,9 @@ namespace bring.ViewModel
     {
 
         /// <inheritdoc />
-        public BringItemViewModel(INavigation _navigation, BringListViewModel _listViewModel, BringItem _bringItem)
+        public BringItemViewModel( BringItem _bringItem)
         {
-            navigation = _navigation;
-            listViewModel = _listViewModel;
+           
             bringItem = _bringItem;
         }
 

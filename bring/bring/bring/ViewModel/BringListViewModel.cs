@@ -1,5 +1,7 @@
 ﻿using System.Collections.ObjectModel;
+using System.Windows.Input;
 using bring.Framework;
+using bring.Model;
 using Xamarin.Forms;
 
 namespace bring.ViewModel
@@ -9,10 +11,22 @@ namespace bring.ViewModel
 
         private ObservableCollection<BringItemViewModel> Items { get; set; }
 
-        public BringListViewModel()
+        public BringListViewModel(INavigation navigation, IViewMapper viewMapper)
         {
-            Items=new ObservableCollection<BringItemViewModel>();
+            _navigation = navigation;
+            _viewMapper = viewMapper;
+
+            Items =new ObservableCollection<BringItemViewModel>();
+            NavigateCommand = new Command(() =>
+            {
+                var viewModel= new BringItemViewModel( new BringItem());
+                _navigation.PushAsync(_viewMapper.Map(viewModel));
+            });
+
         }
+
+        public ICommand NavigateCommand { get;  }
+
 
         public BringItemViewModel SelectedItem
         {

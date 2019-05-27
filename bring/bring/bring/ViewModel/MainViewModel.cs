@@ -11,17 +11,11 @@ namespace bring.ViewModel
             _navigation = navigation;
             _viewMapper = viewMapper;
             _listViewModel = listViewModel;
-            NavigateCommand = new Command((parameter) => _navigation.PushAsync(_viewMapper.Map(listViewModel)));
+            NavigateCommand = new Command((parameter) => _navigation.PushAsync(_viewMapper.Map(_listViewModel)));
         }
-
+        
         public ICommand NavigateCommand { get; }
-
-    private void Navigate()
-        {
-            var page = _viewMapper.Map(_listViewModel);
-            _navigation.PushAsync(page);
-        }
-
+        
         private readonly INavigation _navigation;
         private readonly IViewMapper _viewMapper;
         private readonly BringListViewModel _listViewModel;
